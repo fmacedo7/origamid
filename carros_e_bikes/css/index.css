@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#first-div-carro,
+#second-div-bike {
+  background-color: black;
+  color: grey;
+  margin: 20px;
+  width: 60%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#car-price,
+#car-year,
+#km-car,
+#bike-price,
+#bike-year,
+#km-bike {
+  color: orange;
+}
+
+#exemple1,
+#exemple2 {
+  color: white;
+}
+
+p {
+  font-weight: bold;
+}
+
+#car-text,
+#bike-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#div-car-h3,
+#div-bike-h3 {
+  font-size: 25px;
+}
+
+#car-button,
+#bike-button {
+  background-color: orange;
+  color: black;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}

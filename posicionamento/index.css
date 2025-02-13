@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background: #f7f7f7;
+}
+
+.initial-title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 40px;
+}
+
+.initial-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.initial-menu h3 {
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.content-global-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 100px;
+}
+
+#bikcraft-image {
+  width: 100%;
+}
+
+.content-area-left,
+.content-title,
+.content-text,
+.content-left-flex {
+  background-color: white;
+}
+
+.content-left-flex {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
