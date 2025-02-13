@@ -29,6 +29,7 @@
 .content-global-area {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   margin: 100px;
 }
 
@@ -38,13 +39,77 @@
 
 .content-area-left,
 .content-title,
-.content-text,
-.content-left-flex {
+.content-text {
   background-color: white;
 }
 
-.content-left-flex {
-  width: 100%;
+.content-area-left {
+  align-content: center;
+  padding: 50px;
+  display: grid;
+  justify-items: end;
+  gap: 20px;
+}
+
+.vermais-button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  background-color: red;
+  border: red solid 1px;
+  width: fit-content;
+}
+
+.content-area-left > h1 {
+  text-align: end;
+  font-size: 40px;
+}
+
+.content-area-left > p {
+  font-size: 23px;
+  text-align: end;
+}
+
+.content-bottom-left {
+  display: grid;
+  align-content: center;
+  justify-content: end;
+}
+
+.content-bottom-left h1 {
+  font-size: 100px;
+  color: rgba(128, 128, 128, 0.5);
+  text-align: end;
+}
+
+.vantagens-items {
+  align-content: center;
+  padding-left: 70px;
+}
+
+.vantagens-items > p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  width: 300px;
+}
+
+.vantagens-items > h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.vantagens-items > h3 {
+  display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.vantagens-items,
+p,
+h3,
+img {
+  background-color: white;
 }
