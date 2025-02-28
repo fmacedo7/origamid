@@ -5,18 +5,22 @@
   background: #f7f7f7;
 }
 
-.initial-title {
+header {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  font-size: 40px;
+  margin-top: 4rem;
 }
 
-.initial-menu {
+img#initial-title {
+  background-color: transparent;
+}
+
+ul#info-options {
+  padding: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 20px;
+  text-decoration: none;
+  list-style: none;
+  gap: 2rem;
 }
 
 .initial-menu h3 {
