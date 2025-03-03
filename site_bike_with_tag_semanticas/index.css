@@ -16,11 +16,26 @@ img#initial-title {
 
 ul#info-options {
   padding: 0;
+  padding-top: 5rem;
   display: flex;
   justify-content: center;
-  text-decoration: none;
   list-style: none;
   gap: 2rem;
+}
+
+ul#info-options a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
+
+ul#info-options a:hover{
+  border: red solid 2px;
+  border-radius: 4px;
+  padding: calc(1rem - 2px) calc(2rem - 2px);
 }
 
 .initial-menu h3 {
@@ -60,10 +75,17 @@ ul#info-options {
   border-radius: 4px;
   text-decoration: none;
   font-size: 20px;
-  color: black;
+  color: white;
   background-color: red;
   border: red solid 1px;
   width: fit-content;
+}
+
+.vermais-button:hover{
+  background-color: rgb(112, 16, 16);
+  color: white;
+  border-radius: 4px;
+  border: rgb(112, 16, 16) solid 1px;
 }
 
 .content-area-left > h1 {
