@@ -32,7 +32,7 @@ ul#info-options a {
   border-radius: 4px;
 }
 
-ul#info-options a:hover{
+ul#info-options a:hover {
   border: red solid 2px;
   border-radius: 4px;
   padding: calc(1rem - 2px) calc(2rem - 2px);
@@ -81,7 +81,7 @@ ul#info-options a:hover{
   width: fit-content;
 }
 
-.vermais-button:hover{
+.vermais-button:hover {
   background-color: rgb(112, 16, 16);
   color: white;
   border-radius: 4px;
@@ -90,61 +90,30 @@ ul#info-options a:hover{
 
 .content-bottom-left {
   background: url("./img/onda.svg") repeat;
-}
-
-.vantagem-text {
-  background-color: transparent;
-  margin-right: 2rem;
-}
-
-.content-area-left > h1 {
-  text-align: end;
-  font-size: 40px;
-}
-
-.content-area-left > p {
-  font-size: 23px;
-  text-align: end;
-}
-
-.content-bottom-left {
   display: grid;
   align-content: center;
   justify-content: end;
 }
-
 .content-bottom-left h1 {
   font-size: 100px;
   color: rgba(128, 128, 128, 0.5);
   text-align: end;
 }
 
-.vantagens-items {
-  align-content: center;
-  padding-left: 70px;
-}
-
-.vantagens-items > p {
-  font-size: 20px;
-  margin-bottom: 40px;
-  width: 300px;
-}
-
-.vantagens-items > h3 {
-  font-weight: bold;
-  margin-bottom: 15px;
-  margin-bottom: 15px;
-  width: 300px;
-}
-
-.vantagens-items > h3 {
-  display: flex;
-  align-items: center;
-}
-
 .vantagens-items,
-p,
-h3,
+.vantagens-items > ul,
+li,
 img {
   background-color: white;
+}
+
+.items-list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.vantagens-items {
+  display: grid;
+  grid-template: 4 4;
 }
