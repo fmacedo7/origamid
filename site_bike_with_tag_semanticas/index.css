@@ -88,6 +88,15 @@ ul#info-options a:hover{
   border: rgb(112, 16, 16) solid 1px;
 }
 
+.content-bottom-left {
+  background: url("./img/onda.svg") repeat;
+}
+
+.vantagem-text {
+  background-color: transparent;
+  margin-right: 2rem;
+}
+
 .content-area-left > h1 {
   text-align: end;
   font-size: 40px;
