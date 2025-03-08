@@ -70,6 +70,15 @@ ul#info-options a:hover {
   gap: 20px;
 }
 
+h1.content-title {
+  font-size: 2.5rem;
+}
+
+p.content-text {
+ font-size: 1.5rem;
+ text-align: right;
+}
+
 .vermais-button {
   padding: 10px 20px;
   border-radius: 4px;
@@ -88,32 +97,58 @@ ul#info-options a:hover {
   border: rgb(112, 16, 16) solid 1px;
 }
 
+h1.vantagem-text {
+  background-color: transparent;
+  margin-right: 2rem;
+}
+
 .content-bottom-left {
   background: url("./img/onda.svg") repeat;
   display: grid;
   align-content: center;
   justify-content: end;
 }
+
 .content-bottom-left h1 {
   font-size: 100px;
   color: rgba(128, 128, 128, 0.5);
   text-align: end;
 }
 
-.vantagens-items,
-.vantagens-items > ul,
-li,
-img {
+section.vantagens-items {
+  align-content: center;
+}
+
+section.vantagens-items, .items-list, ul.list > img{
   background-color: white;
 }
 
-.items-list {
+ul.list{
+  margin-left: 3rem;
+}
+
+.list, .list > li, ul.item-description > li {
   margin: 0px;
   padding: 0px;
   list-style: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: white;
+  gap: 1rem 2rem;
+  align-items: center;
 }
 
-.vantagens-items {
-  display: grid;
-  grid-template: 4 4;
+.item-description {
+  grid-column: 2;
+}
+
+footer {
+  background-color: white;
+  padding: 50px 50px;
+}
+
+footer > p {
+  background-color: white;
+  font-size: 1rem;
+  text-align: center;
 }
