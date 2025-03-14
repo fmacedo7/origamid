@@ -16,7 +16,7 @@ img#initial-title {
 
 ul#info-options {
   padding: 0;
-  padding-top: 5rem;
+  margin: 5rem auto;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -49,11 +49,14 @@ ul#info-options a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: 100px;
+  margin: 0 auto;
+  width: 80%;
 }
 
 #bikcraft-image {
   width: 100%;
+  object-fit: cover;
+  object-position: top right;
 }
 
 .content-area-left,
@@ -80,7 +83,7 @@ p.content-text {
 }
 
 .vermais-button {
-  padding: 10px 20px;
+  padding: .75rem 1.25rem;
   border-radius: 4px;
   text-decoration: none;
   font-size: 20px;
@@ -145,10 +148,29 @@ ul.list{
 footer {
   background-color: white;
   padding: 50px 50px;
+  margin-top: 5rem  ;
 }
 
 footer > p {
   background-color: white;
   font-size: 1rem;
   text-align: center;
+}
+
+@media (max-width: 1340px) {
+  .content-global-area {
+    grid-template-columns: 1fr;
+  }
+
+  h1.content-title {
+    font-size: 4rem;
+  }
+
+  p.content-text {
+    font-size: 2.5rem;
+  }
+
+  .vermais-button {
+    padding: 1.5rem 2.5rem;
+  }
 }

@@ -1,0 +1,12 @@
+Important
+
+1. All ways add 'meta' tag to HTML doc file. It's used for responsiveness among different screens.
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+2. Responsiveness among different screens using grid property.
+grid-template-columns: repeat(number_of_columns, size of columns (fr, px, rem, etc)),
+exemple:
+grid-template-columns: repeat(3, 1fr);
+or
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+where 'auto-fit' property is used for auto-adjust the amount content on the screen and when the size screen is up to 400px, the site will be formated.
